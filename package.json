@@ -10,7 +10,12 @@
     "type": "github",
     "url": "https://github.com/Tybi/parse-server-sendgrid-template-adapter"
   },
-  "version": "0.1.0",
+  "license": "MIT",
+  "keywords": [
+    "parse-server",
+    "sendgrid"
+  ],
+  "version": "0.1.2",
   "main": "dist/index.js",
   "module": "dist/parse-server-sengrid-template-adapter.esm.js",
   "typings": "dist/index.d.ts",

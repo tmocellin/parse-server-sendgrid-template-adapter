@@ -61,6 +61,7 @@ export const SendGridMailAdapter = (
       dynamic_template_data: {
         username: options.user.get("username"),
         link: options.link,
+        appName: options.appName,
       },
     }
     return sgMail.send(msg)
@@ -71,10 +72,10 @@ export const SendGridMailAdapter = (
       to: options.user.get("email"),
       from: fromEmail,
       templateId: passwordResetTemplateId || "",
-      // eslint-disable-next-line @typescript-eslint/camelcase
       dynamic_template_data: {
         username: options.user.get("username"),
         link: options.link,
+        appName: options.appName,
       },
     }
     return sgMail.send(msg)
