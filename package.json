@@ -1,7 +1,15 @@
 {
   "name": "parse-server-sendgrid-template-adapter",
   "description": "Parse Server MailAdapter for Sengrid with usage of template",
-  "author": "Thibault MOCELLIN <https://github.com/tybi/> ",
+  "author": {
+    "name": "Thibault MOCELLIN",
+    "email": "contact@tmocellin.com",
+    "url": "https://github.com/Tybi"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/Tybi/parse-server-sendgrid-template-adapter"
+  },
   "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/parse-server-sengrid-template-adapter.esm.js",
