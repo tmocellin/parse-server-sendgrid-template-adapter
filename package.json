@@ -1,0 +1,36 @@
+{
+  "name": "parse-server-sendgrid-template-adapter",
+  "description": "Parse Server MailAdapter for Sengrid with usage of template",
+  "author": "Thibault MOCELLIN <https://github.com/tybi/> ",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "module": "dist/parse-server-sengrid-template-adapter.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test"
+  },
+  "peerDependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "husky": "^2.4.1",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1",
+    "tsdx": "^0.7.2",
+    "tslib": "^1.10.0",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "@types/parse": "^2.2.6"
+  }
+}
